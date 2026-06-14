@@ -8,7 +8,7 @@ const songs = [
     color: "#FFB830",
     glow: "#FFB83055",
     cardBg: "linear-gradient(135deg, #3D2E7C 60%, #5C3D00 100%)",
-    audioUrl: "/Solen siger \"Hej\"(barn).mp3",
+    audioUrl: "/godmorgen.mp3",
     verses: [
       "Godmorgen, [navn], vågn op nu,\ndagen står og venter på dig, du.\nGodmorgen, [navn], kom og se,\nsolen siger: \"Hej!\" til dig i dag. ☀️",
       "[Navn] strækker arme mod himlen blå,\ngnider søvnen væk og er klar til at gå.\nEt lille smil og et lille hop,\nså starter [navn] dagen helt i top! 🌸\n\nGodmorgen, [navn], vågn op nu,\ndagen står og venter på dig, du.\nGodmorgen, [navn], kom og se,\nsolen siger: \"Hej!\" til dig i dag. ☀️"
