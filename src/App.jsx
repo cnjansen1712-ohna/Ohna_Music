@@ -174,7 +174,7 @@ export default function OhnaBørnesange() {
       setPlaying(false);
     } else {
       if (audioRef.current) {
-        audioRef.current.src = selected.audioUrl;
+        audioRef.current.src = currentAudio;
         audioRef.current.play();
         setPlaying(true);
       }
