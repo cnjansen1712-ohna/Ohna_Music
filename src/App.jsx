@@ -198,6 +198,19 @@ export default function OhnaBørnesange() {
 
   const displayName = name || "Barnet";
 
+  const nameAudioMap = {
+    "noah": "/godmorgen.mp3",
+    "bodil": "/bodil.mp3",
+    "ella": "/ella.mp3",
+    "karl": "/karl.mp3",
+    "karla": "/karla.mp3",
+    "rita": "/rita.mp3",
+  };
+
+  const currentAudio = selected.audioUrl
+    ? (nameAudioMap[displayName.toLowerCase()] || "/godmorgen.mp3")
+    : null;
+
   return (
     <div style={{
       minHeight: "100vh",
